@@ -8,8 +8,8 @@
 	</head>
 	<body>
 		<input type="text" ng-model="first.greeting"></input>
-		<input type="hidden" value="World" ng-model="second.greeting"></input>
-		{{ first.greeting}} {{ second.greeting }}
+		<input type="hidden" ng-init="second.greeting='World'" ng-model="second.greeting"></input>
+		{{ first.greeting }} {{ second.greeting }}
 	</body>
 </html>
 </html>
